@@ -3,26 +3,52 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio Version 17
 VisualStudioVersion = 17.0.31903.59
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "AudioCopier", "AudioCopier\AudioCopier.csproj", "{42A82443-9D8D-4F5E-B88C-6FC66B99C377}"
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "LiveTests", "LiveTests", "{F16193ED-67FE-4542-9022-C07252BDB768}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "AudioSyncer", "AudioSyncer\AudioSyncer.csproj", "{3D64E748-5A3C-460D-B854-EC1885D1220E}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "AudioCopier", "LiveTests\AudioCopier\AudioCopier.csproj", "{87219B8F-A9F5-43B2-81C5-49E6555AB572}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "AudioSyncer", "LiveTests\AudioSyncer\AudioSyncer.csproj", "{623802C2-134A-404B-9BA1-C735A73632F7}"
 EndProject
 Global
-	GlobalSection(SolutionConfigurationPlatforms) = preSolution
-		Debug|Any CPU = Debug|Any CPU
-		Release|Any CPU = Release|Any CPU
-	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
 	EndGlobalSection
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Debug|x64 = Debug|x64
+		Debug|x86 = Debug|x86
+		Release|Any CPU = Release|Any CPU
+		Release|x64 = Release|x64
+		Release|x86 = Release|x86
+	EndGlobalSection
 	GlobalSection(ProjectConfigurationPlatforms) = postSolution
-		{42A82443-9D8D-4F5E-B88C-6FC66B99C377}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
-		{42A82443-9D8D-4F5E-B88C-6FC66B99C377}.Debug|Any CPU.Build.0 = Debug|Any CPU
-		{42A82443-9D8D-4F5E-B88C-6FC66B99C377}.Release|Any CPU.ActiveCfg = Release|Any CPU
-		{42A82443-9D8D-4F5E-B88C-6FC66B99C377}.Release|Any CPU.Build.0 = Release|Any CPU
-		{3D64E748-5A3C-460D-B854-EC1885D1220E}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
-		{3D64E748-5A3C-460D-B854-EC1885D1220E}.Debug|Any CPU.Build.0 = Debug|Any CPU
-		{3D64E748-5A3C-460D-B854-EC1885D1220E}.Release|Any CPU.ActiveCfg = Release|Any CPU
-		{3D64E748-5A3C-460D-B854-EC1885D1220E}.Release|Any CPU.Build.0 = Release|Any CPU
+		{87219B8F-A9F5-43B2-81C5-49E6555AB572}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{87219B8F-A9F5-43B2-81C5-49E6555AB572}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{87219B8F-A9F5-43B2-81C5-49E6555AB572}.Debug|x64.ActiveCfg = Debug|Any CPU
+		{87219B8F-A9F5-43B2-81C5-49E6555AB572}.Debug|x64.Build.0 = Debug|Any CPU
+		{87219B8F-A9F5-43B2-81C5-49E6555AB572}.Debug|x86.ActiveCfg = Debug|Any CPU
+		{87219B8F-A9F5-43B2-81C5-49E6555AB572}.Debug|x86.Build.0 = Debug|Any CPU
+		{87219B8F-A9F5-43B2-81C5-49E6555AB572}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{87219B8F-A9F5-43B2-81C5-49E6555AB572}.Release|Any CPU.Build.0 = Release|Any CPU
+		{87219B8F-A9F5-43B2-81C5-49E6555AB572}.Release|x64.ActiveCfg = Release|Any CPU
+		{87219B8F-A9F5-43B2-81C5-49E6555AB572}.Release|x64.Build.0 = Release|Any CPU
+		{87219B8F-A9F5-43B2-81C5-49E6555AB572}.Release|x86.ActiveCfg = Release|Any CPU
+		{87219B8F-A9F5-43B2-81C5-49E6555AB572}.Release|x86.Build.0 = Release|Any CPU
+		{623802C2-134A-404B-9BA1-C735A73632F7}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{623802C2-134A-404B-9BA1-C735A73632F7}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{623802C2-134A-404B-9BA1-C735A73632F7}.Debug|x64.ActiveCfg = Debug|Any CPU
+		{623802C2-134A-404B-9BA1-C735A73632F7}.Debug|x64.Build.0 = Debug|Any CPU
+		{623802C2-134A-404B-9BA1-C735A73632F7}.Debug|x86.ActiveCfg = Debug|Any CPU
+		{623802C2-134A-404B-9BA1-C735A73632F7}.Debug|x86.Build.0 = Debug|Any CPU
+		{623802C2-134A-404B-9BA1-C735A73632F7}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{623802C2-134A-404B-9BA1-C735A73632F7}.Release|Any CPU.Build.0 = Release|Any CPU
+		{623802C2-134A-404B-9BA1-C735A73632F7}.Release|x64.ActiveCfg = Release|Any CPU
+		{623802C2-134A-404B-9BA1-C735A73632F7}.Release|x64.Build.0 = Release|Any CPU
+		{623802C2-134A-404B-9BA1-C735A73632F7}.Release|x86.ActiveCfg = Release|Any CPU
+		{623802C2-134A-404B-9BA1-C735A73632F7}.Release|x86.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{87219B8F-A9F5-43B2-81C5-49E6555AB572} = {F16193ED-67FE-4542-9022-C07252BDB768}
+		{623802C2-134A-404B-9BA1-C735A73632F7} = {F16193ED-67FE-4542-9022-C07252BDB768}
 	EndGlobalSection
 EndGlobal
