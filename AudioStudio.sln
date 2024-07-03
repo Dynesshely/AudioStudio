@@ -9,6 +9,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "AudioCopier", "LiveTests\Au
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "AudioSyncer", "LiveTests\AudioSyncer\AudioSyncer.csproj", "{623802C2-134A-404B-9BA1-C735A73632F7}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "AudioStudio", "AudioStudio\AudioStudio.csproj", "{805AE267-1FE3-46A7-A861-D98B58FBA06B}"
+EndProject
 Global
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
@@ -46,6 +48,18 @@ Global
 		{623802C2-134A-404B-9BA1-C735A73632F7}.Release|x64.Build.0 = Release|Any CPU
 		{623802C2-134A-404B-9BA1-C735A73632F7}.Release|x86.ActiveCfg = Release|Any CPU
 		{623802C2-134A-404B-9BA1-C735A73632F7}.Release|x86.Build.0 = Release|Any CPU
+		{805AE267-1FE3-46A7-A861-D98B58FBA06B}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{805AE267-1FE3-46A7-A861-D98B58FBA06B}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{805AE267-1FE3-46A7-A861-D98B58FBA06B}.Debug|x64.ActiveCfg = Debug|Any CPU
+		{805AE267-1FE3-46A7-A861-D98B58FBA06B}.Debug|x64.Build.0 = Debug|Any CPU
+		{805AE267-1FE3-46A7-A861-D98B58FBA06B}.Debug|x86.ActiveCfg = Debug|Any CPU
+		{805AE267-1FE3-46A7-A861-D98B58FBA06B}.Debug|x86.Build.0 = Debug|Any CPU
+		{805AE267-1FE3-46A7-A861-D98B58FBA06B}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{805AE267-1FE3-46A7-A861-D98B58FBA06B}.Release|Any CPU.Build.0 = Release|Any CPU
+		{805AE267-1FE3-46A7-A861-D98B58FBA06B}.Release|x64.ActiveCfg = Release|Any CPU
+		{805AE267-1FE3-46A7-A861-D98B58FBA06B}.Release|x64.Build.0 = Release|Any CPU
+		{805AE267-1FE3-46A7-A861-D98B58FBA06B}.Release|x86.ActiveCfg = Release|Any CPU
+		{805AE267-1FE3-46A7-A861-D98B58FBA06B}.Release|x86.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(NestedProjects) = preSolution
 		{87219B8F-A9F5-43B2-81C5-49E6555AB572} = {F16193ED-67FE-4542-9022-C07252BDB768}
